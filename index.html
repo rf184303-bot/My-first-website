@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #6cc3fd, #bfdbfe);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 1,4;
+        }
+
+        .profile-card {
+            background: rgb(58, 205, 242);
+            max-width: 380px;
+            width: 100%;
+            padding: 35px 25px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+            margin: 0 auto 15px auto;
+            display: block;
+        }
+
+        h1 {
+            margin: 10px 0 5px 0;
+            color: #111;
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .youtube { background-color: #ff0000; }
+        .facebook { background-color: #0919f4; } 
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            opacity: 0.95;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        
+        <img src="IMG-20260530-WA0000.jpg" alt="My-Photo" class="profile-img"> 
+        <h1>Rehan Personal</h1>
+        <p>Hello!Rehan fazal, main ek web developer hoon aur main apni nayi website banana seekh raha hoon</p>
+        
+        <div class="social-buttons">
+            <a href="https://instagram.com" target="_blank" class="btn instagram">Instagram</a>
+            <a href="#" target="_blank" class="btn youtube">YouTube</a>
+            <a href="https://youtube.com" target="_blank" class="btn youtube">YouTube</a>
+            <a href="#" target="blank"  class="btn facebook">Facebook</a> 
+            <a href="https://www.facebook.com" target= " _blank" class="btn facebook">Facebook</a> 
+            <a href="#" target="blank"  class="btn twitter">Twitter</a> 
+            <a href="https://twitter.com"  target="_blank" class="btn twitter">Twitter</a> 
+        </div>
+    </div>
+
+</body>
+</html>   
+
